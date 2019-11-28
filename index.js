@@ -38,7 +38,7 @@
   	Schneeflocken_am[i] = Math.random()*20;
   	Schneeflocken_stx[i] = 0.02 + Math.random()/10;
   	Schneeflocken_sty[i] = 0.7 + Math.random();
-    document.body.innerHTML += '<div id="Schneeflocken_flocke' + i +'" style="left=-100px; top:-100px; position: absolute; z-index: '+ i +'; visibility: visible;"><img style="height:' + Schneeflocken_große + 'px" src="'+Schneeflocke_Bild+'" border="0"></div>';
+    document.body.innerHTML += '<div id="Schneeflocken_flocke' + i +'" style="pointer-events:none;left=-100px; top:-100px; position: absolute; z-index: '+ i +'; visibility: visible;"><img style="height:' + Schneeflocken_große + 'px" src="'+Schneeflocke_Bild+'" border="0"></div>';
   }
 function Schneeflocken_Wetter(){
 for (i = 0; i < Schneeflocken_Anzahl; ++ i){
