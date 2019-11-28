@@ -1,5 +1,5 @@
 
-  var Schneeflocke_Bild = "https://raw.githubusercontent.com/DavidHDJ/snowflakes/master/schnee.png";
+  var Schneeflocke_Bild = "https://raw.githubusercontent.com/JetradarMobile/android-snowfall/master/snowfall-sample/src/main/res/drawable-xxxhdpi/snowflake.png";
   var Schneeflocken_Anzahl = 30;
   var Schneeflocken_große = 15;
   var Schneeflocken_Browser_IE_NS = (document.body.clientHeight) ? 1 : 0;
